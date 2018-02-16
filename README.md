@@ -1,3 +1,3 @@
 # Random-Functions
 
-- implementation checking random values against the collatz conjecture
+Collatz.py - implementation checking random values against the collatz conjecture
