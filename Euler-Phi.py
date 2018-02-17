@@ -1,4 +1,4 @@
-#doesn't work for 1 or 2 just yet
+#doesn't work for prime numbers yet but that's an easy fix
 
 
 import itertools
