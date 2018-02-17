@@ -1,3 +1,6 @@
+#doesn't work for 1 or 2 just yet
+
+
 import itertools
 import math
 
