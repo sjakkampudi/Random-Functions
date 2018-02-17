@@ -1,5 +1,4 @@
 import itertools
-import math
 
 factorization = []
 
@@ -27,7 +26,6 @@ def count_intersection(s1, num):
 
 def sum_intersections(num):
 	sum = 0
-	#factorization = list(set(prime_factorization(num)))
 
 	for i in range(1,len(factorization)+1):
 		intersections = list(itertools.combinations(factorization, i))
