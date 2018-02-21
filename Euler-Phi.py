@@ -45,14 +45,15 @@ def sum_intersections(num):
 	return sum
 
 num = 1
+
 #-----------------Script-------------------
 while(num > 0):
 	num = int(input("Enter an integer (0 to quit): "))
 	factorization = prime_factorization(num)
 
-	# prints num-1 if num is prime
 	if (num == 0):
 		pass
+	# prints num-1 if num is prime
 	elif len(factorization) == 0:
 		print(num-1)
 	else:
