@@ -35,8 +35,6 @@ def sum_intersections(num):
 	sum = 0
 
 	for i in range(1,len(factorization)+1):
-		# I cheated here and used a built-in function 
-		# that returns all subsets of size i given a set
 		intersections = list(itertools.combinations(factorization, i))
 		for tup in intersections:
 			if i%2:
