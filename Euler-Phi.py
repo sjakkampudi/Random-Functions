@@ -13,7 +13,7 @@ def prime_factorization(num):
 			pfactorization.append(i)
 
 		if num == 1:
-			i = num
+			break
 
 	#set() gets rid of repeated factors
 	return list(set(pfactorization))
