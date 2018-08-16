@@ -10,6 +10,6 @@ def collatz(num):
 	else:
 		return ((str(num) + " -> ") + collatz(num*3 + 1))
 
-for i in range(9):
+for i in range(7):
 	print(collatz(random.randint(1,sys.maxsize)))
 	print("\n")
